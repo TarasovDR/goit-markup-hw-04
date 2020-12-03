@@ -120,6 +120,13 @@ img {
   margin-left: auto;
 }
 
+.header-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  fill: #757575;
+}
+
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -165,8 +172,6 @@ a,
       rgba(47, 48, 58, 0.4)
     ),
     url(../images/hero-bg.jpg);
-  /* background-position: center; */
-  /* background-size: cover; */
 }
 
 .hero,
@@ -238,6 +243,21 @@ footer {
   color: var(--primary-bg-color);
 }
 
+.feature-icon-bg {
+  display: inline-block;
+  text-align: center;
+  align-content: center;
+  width: 270px;
+  height: 120px;
+  background-color: var(--third-bg-color);
+  margin-bottom: 30px;
+}
+
+.feature-icon {
+  width: 70px;
+  height: 70px;
+}
+
 .features-title {
   margin-bottom: 10px;
   font-size: 14px;
@@ -307,6 +327,17 @@ footer {
 
 .teammate-profession {
   font-weight: 400;
+  margin-bottom: 16px;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-around;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
 }
 
 address {
