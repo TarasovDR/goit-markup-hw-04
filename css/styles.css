@@ -244,9 +244,9 @@ footer {
 }
 
 .feature-icon-bg {
-  display: inline-block;
-  text-align: center;
-  align-content: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 270px;
   height: 120px;
   background-color: var(--third-bg-color);
