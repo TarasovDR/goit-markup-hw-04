@@ -108,9 +108,17 @@ body {
   padding-bottom: 32px;
 }
 
-.auth-nav .link {
+.auth-nav-link {
+  display: flex;
+  align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
+  color: var(--secondary-text-color);
+}
+
+.header-icon {
+  margin-right: 10px;
+  fill: currentColor;
 }
 
 .nav-wrapper {
@@ -120,13 +128,6 @@ body {
 
 .auth-nav {
   margin-left: auto;
-}
-
-.header-icon {
-  width: 16px;
-  height: 16px;
-  margin-right: 10px;
-  fill: #757575;
 }
 
 .section {
@@ -147,8 +148,8 @@ a,
 .logo-web,
 .site-nav .link:hover,
 .site-nav .link:focus,
-.auth-nav a:hover,
-.auth-nav a:focus,
+.auth-nav-link:hover,
+.auth-nav-link:focus,
 .auth-nav-footer a:hover,
 .auth-nav-footer a:focus,
 .list .current {
@@ -382,11 +383,47 @@ footer {
   color: var(--accent-color);
 }
 
+.container.footer-wrap {
+  display: flex;
+}
+
 address {
+  margin-right: 70px;
   font-style: inherit;
   font-weight: 400;
   line-height: 1.714;
   letter-spacing: 0.03em;
+}
+
+.footer-social-title {
+  margin-bottom: 20px;
+  color: var(--primary-bg-color);
+  text-transform: uppercase;
+}
+
+.footer-social {
+  width: 206px;
+}
+
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: var(--primary-bg-color);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+
+.footer-social-icon {
+  fill: currentColor;
 }
 
 .cards {
